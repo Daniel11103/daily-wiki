@@ -7,6 +7,7 @@
 > 通过 Docker Hub 等仓库存取镜像，推送前需先登录账号。
 
 **步骤**
+
 1. 登录：`docker login`，退出：`docker logout`
 2. 搜索：`docker search ubuntu`
 3. 拉取：`docker pull ubuntu`
@@ -23,5 +24,6 @@
 > 用 `save` 把镜像导出为 tar 文件，再用 `load` 导入。
 
 **步骤**
+
 1. 导出：`docker save -o my_ubuntu_v3.tar runoob/ubuntu:v3`
 2. 导入：`docker load -i my_ubuntu_v3.tar`

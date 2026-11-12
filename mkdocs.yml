@@ -2,8 +2,15 @@ site_name: 个人知识库
 theme:
   name: material
   language: zh
+  font: false
+  palette:
+    scheme: default
+    primary: white
+    accent: blue
   features:
     - navigation.sections
     - navigation.top
     - search.highlight
     - content.code.copy
+extra_css:
+  - stylesheets/extra.css
