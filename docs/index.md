@@ -18,6 +18,18 @@
 
     ---
 
+    9 条知识点
+
+- **[git](topics/git.md)**
+
+    ---
+
+    6 条知识点
+
+- **[gpon](topics/gpon.md)**
+
+    ---
+
     2 条知识点
 
 - **[linux](topics/linux.md)**
