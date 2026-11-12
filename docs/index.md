@@ -14,6 +14,12 @@
 
 <div class="grid cards" markdown="1">
 
+- **[ansible](topics/ansible.md)**
+
+    ---
+
+    2 条知识点
+
 - **[docker](topics/docker.md)**
 
     ---
@@ -36,13 +42,19 @@
 
     ---
 
-    7 条知识点
+    12 条知识点
+
+- **[mysql](topics/mysql.md)**
+
+    ---
+
+    2 条知识点
 
 - **[network](topics/network.md)**
 
     ---
 
-    2 条知识点
+    9 条知识点
 
 - **[nginx](topics/nginx.md)**
 
@@ -50,13 +62,31 @@
 
     2 条知识点
 
+- **[openvswitch](topics/openvswitch.md)**
+
+    ---
+
+    3 条知识点
+
 - **[ssh](topics/ssh.md)**
 
     ---
 
     1 条知识点
 
+- **[voip](topics/voip.md)**
+
+    ---
+
+    3 条知识点
+
 - **[vscode](topics/vscode.md)**
+
+    ---
+
+    1 条知识点
+
+- **[wireshark](topics/wireshark.md)**
 
     ---
 

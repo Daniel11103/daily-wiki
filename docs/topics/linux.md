@@ -116,3 +116,92 @@
 2. 按地址过滤：`ss src <IP>`，按端口过滤：`ss src <IP>:80`
 
 </div>
+
+<div class="kb-card" markdown="1">
+
+## 切换 Ubuntu 软件源为国内镜像
+
+*未标注* <span class="kb-pill">#linux</span> <span class="kb-pill">#apt</span>
+
+> 把 apt 软件源换成国内镜像，可以明显加快软件安装和更新。
+
+**步骤**
+
+1. 备份原配置：`sudo cp /etc/apt/sources.list /etc/apt/sources.list.bak`
+2. 编辑 `/etc/apt/sources.list`，替换为所选镜像站地址（如阿里云 `mirrors.aliyun.com/ubuntu/`），保持与系统版本代号一致（Ubuntu 20.04 为 focal）
+3. 更新缓存：`sudo apt update && sudo apt upgrade`
+
+</div>
+
+<div class="kb-card" markdown="1">
+
+## Ubuntu 20.04 改回传统网卡名
+
+*未标注* <span class="kb-pill">#linux</span> <span class="kb-pill">#网卡</span>
+
+> 通过内核参数关闭可预测网卡名，让网卡恢复为 eth0 这类名称。
+
+**步骤**
+
+1. 编辑 `/etc/default/grub`，在 `GRUB_CMDLINE_LINUX=""` 的引号内加入 `net.ifnames=0`
+2. 重建 GRUB 配置：`sudo grub-mkconfig -o /boot/grub/grub.cfg`
+3. 重启后生效
+
+**注意**：Ubuntu 20.04 使用 netplan 管理网络，IP 配置在 `/etc/netplan/*.yaml` 中，网卡名改变后需同步修改该文件。
+
+</div>
+
+<div class="kb-card" markdown="1">
+
+## 使用 minicom 连接串口设备
+
+*未标注* <span class="kb-pill">#linux</span> <span class="kb-pill">#串口</span>
+
+> minicom 是 Linux 下常用的串口调试工具。
+
+**步骤**
+
+1. 安装：`sudo apt-get install minicom`
+2. 进入配置：`sudo minicom -s`，选择 Serial port setup
+3. 按 `A` 设置串口设备（USB 转串口一般为 `/dev/ttyUSBx`，可用 `ls -l /dev/ttyUSB*` 确认）
+4. 按 `E` 设置波特率、校验和数据位，按 `F` 关闭硬件流控
+5. 保存后退出配置即可连接设备
+
+</div>
+
+<div class="kb-card" markdown="1">
+
+## 树莓派搭建 Samba 共享目录
+
+*未标注* <span class="kb-pill">#linux</span> <span class="kb-pill">#samba</span>
+
+> 在树莓派上安装 Samba，把目录共享给局域网内的其他设备。
+
+**步骤**
+
+1. 安装：`sudo apt-get install samba samba-common-bin`
+2. 创建共享目录并设置权限：`mkdir /home/pi/share`
+3. 在 `/etc/samba/smb.conf` 末尾添加 `[share]` 段，指定 `path = /home/pi/share`
+4. 添加 Samba 用户：`sudo smbpasswd -a pi`
+5. 重启服务：`sudo systemctl restart smbd`
+
+**注意**：原文使用 `chmod 777`，权限过宽，建议只开放必要的用户和读写权限。
+
+</div>
+
+<div class="kb-card" markdown="1">
+
+## nano 编辑器常用快捷键
+
+*未标注* <span class="kb-pill">#linux</span> <span class="kb-pill">#工具</span>
+
+> nano 是 Linux 下轻量级的终端文本编辑器，底部会显示常用快捷键提示。
+
+**常用操作**
+
+- `Ctrl+O`：保存文件，`Ctrl+X`：退出
+- `Ctrl+W`：搜索，`Ctrl+\`：搜索并替换
+- `Ctrl+K`：剪切当前行，`Ctrl+U`：粘贴
+- `Ctrl+G`：查看帮助
+
+</div>
