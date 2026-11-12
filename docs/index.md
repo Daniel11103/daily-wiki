@@ -1,3 +1,5 @@
 # 个人知识库
 
-内容将由 `publish.py` 生成并发布。
+| 主题 | 知识点数 |
+|---|---|
+| [vscode](topics/vscode.md) | 1 |
