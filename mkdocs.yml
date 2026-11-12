@@ -12,5 +12,8 @@ theme:
     - navigation.top
     - search.highlight
     - content.code.copy
+markdown_extensions:
+  - attr_list
+  - md_in_html
 extra_css:
   - stylesheets/extra.css
