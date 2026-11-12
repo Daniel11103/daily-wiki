@@ -42,7 +42,7 @@ body {
 }
 
 .md-header__title {
-  font-size: 0.95rem;
+  font-size: 15px;
   font-weight: 600;
   letter-spacing: -0.01em;
 }
@@ -53,7 +53,7 @@ body {
 }
 
 .md-search__input {
-  font-size: 0.85rem;
+  font-size: 14px;
 }
 
 /* 侧边栏：纯文字导航 */
@@ -64,14 +64,14 @@ body {
 
 .md-nav__title {
   color: var(--a-muted);
-  font-size: 0.75rem;
+  font-size: 12px;
   font-weight: 600;
   letter-spacing: 0;
 }
 
 .md-nav__link {
   color: var(--a-muted);
-  font-size: 0.875rem;
+  font-size: 14px;
   border-radius: 980px;
   padding: 0.3rem 0.8rem;
   transition: color 0.2s ease, background 0.2s ease;
@@ -100,13 +100,13 @@ body {
 }
 
 .md-typeset {
-  font-size: 1rem;
+  font-size: 16px;
   line-height: 1.6;
   color: var(--a-text);
 }
 
 .md-typeset h1 {
-  font-size: 3.5rem;
+  font-size: 40px;
   font-weight: 600;
   letter-spacing: -0.015em;
   line-height: 1.07;
@@ -115,7 +115,7 @@ body {
 }
 
 .md-typeset h2 {
-  font-size: 2rem;
+  font-size: 28px;
   font-weight: 600;
   letter-spacing: -0.012em;
   line-height: 1.1;
@@ -125,7 +125,7 @@ body {
 }
 
 .md-typeset h3 {
-  font-size: 1.25rem;
+  font-size: 18px;
   font-weight: 600;
   margin: 1.5rem 0 0.5rem;
   color: var(--a-text);
@@ -133,7 +133,7 @@ body {
 
 .md-typeset p,
 .md-typeset li {
-  font-size: 1.0625rem;
+  font-size: 16px;
   color: #424245;
 }
 
@@ -159,7 +159,7 @@ body {
 /* 时间与标签行 */
 .md-typeset p em {
   color: var(--a-muted);
-  font-size: 0.875rem;
+  font-size: 13px;
   font-style: normal;
 }
 
@@ -167,7 +167,7 @@ body {
   display: inline-block;
   margin-right: 0.35rem;
   padding: 0.1rem 0.6rem;
-  font-size: 0.75rem;
+  font-size: 12px;
   font-weight: 500;
   color: var(--a-link);
   background: #e8f1fc;
@@ -179,7 +179,7 @@ body {
 .md-typeset .md-button {
   display: inline-block;
   padding: 0.5rem 1.1rem;
-  font-size: 0.95rem;
+  font-size: 14px;
   font-weight: 400;
   color: var(--a-link);
   background: transparent;
@@ -218,19 +218,19 @@ body {
 }
 
 .kb-hero h1 {
-  font-size: 4.5rem;
+  font-size: 56px;
   margin-bottom: 0.5rem;
 }
 
 .kb-hero .kb-motto {
-  font-size: 0.95rem;
+  font-size: 14px;
   color: var(--a-muted);
   margin-bottom: 1.5rem;
   letter-spacing: 0.02em;
 }
 
 .kb-hero p {
-  font-size: 1.35rem;
+  font-size: 18px;
   color: var(--a-muted);
   margin-bottom: 2rem;
 }
@@ -252,7 +252,7 @@ body {
 
 .kb-card h2 {
   margin-top: 0.25rem;
-  font-size: 1.75rem;
+  font-size: 24px;
 }
 
 .kb-card > p:first-of-type em {
@@ -267,7 +267,7 @@ body {
   padding: 1rem 1.25rem;
   margin: 1rem 0;
   color: var(--a-text);
-  font-size: 1.0625rem;
+  font-size: 16px;
 }
 
 .kb-card blockquote p {
@@ -291,7 +291,7 @@ body {
 }
 
 .grid.cards > ul > li strong a {
-  font-size: 1.5rem;
+  font-size: 20px;
   font-weight: 600;
   color: var(--a-text);
   text-decoration: none;
@@ -299,7 +299,7 @@ body {
 
 .grid.cards > ul > li p {
   color: var(--a-muted);
-  font-size: 0.95rem;
+  font-size: 14px;
 }
 
 .grid.cards > ul > li hr {
@@ -368,11 +368,11 @@ body {
   }
 
   .md-typeset h1 {
-    font-size: 2.5rem;
+    font-size: 32px;
   }
 
   .kb-hero h1 {
-    font-size: 3rem;
+    font-size: 40px;
   }
 
   .kb-card {
