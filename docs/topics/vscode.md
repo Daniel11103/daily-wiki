@@ -6,7 +6,7 @@
 
 ## 用正则批量替换日期格式
 
-*2024-01-15* · <span class="kb-pill">#vscode</span> <span class="kb-pill">#正则</span>
+*2024-01-15* <span class="kb-pill">#vscode</span> <span class="kb-pill">#正则</span>
 
 > 把 `[10_02_22_45]` 批量改为 `[10-02_22-45]`。
 

@@ -6,7 +6,7 @@
 
 ## 配置 SSH 免密码登录
 
-*2021-07-15* · <span class="kb-pill">#ssh</span> <span class="kb-pill">#安全</span>
+*2021-07-15* <span class="kb-pill">#ssh</span> <span class="kb-pill">#安全</span>
 
 > 生成密钥对，并把公钥复制到目标主机，之后即可免密码登录。Windows 需先安装 Git Bash。
 

@@ -6,7 +6,7 @@
 
 ## 管理镜像仓库：登录、拉取与推送
 
-*2023-06-13* · <span class="kb-pill">#docker</span> <span class="kb-pill">#镜像</span>
+*2023-06-13* <span class="kb-pill">#docker</span> <span class="kb-pill">#镜像</span>
 
 > 通过 Docker Hub 等仓库存取镜像，推送前需先登录账号。
 
@@ -27,7 +27,7 @@
 
 ## 导出与导入镜像
 
-*2023-08-17* · <span class="kb-pill">#docker</span> <span class="kb-pill">#镜像</span>
+*2023-08-17* <span class="kb-pill">#docker</span> <span class="kb-pill">#镜像</span>
 
 > 用 `save` 把镜像导出为 tar 文件，再用 `load` 导入。
 
